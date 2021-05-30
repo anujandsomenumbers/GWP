@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe849df76da027f4aab3cda2d0e18e58, type: 3}
+  m_Name: Prefab Library
+  m_EditorClassIdentifier: 
+  zoneTile: {fileID: 11400000, guid: 84d4c2b58334f714ea0cdc29fa4ac938, type: 2}
+  FloorPrefabInfos:
+  - DisplayName: Floor
+    Id: Floor
+    Prefab: {fileID: 11400000, guid: 7d37732dfd8154e4c97a8d3232cee9c7, type: 2}
+    UIIcon: {fileID: 0}
+    SpeedMultiplier: 0
+  ItemPrefabInfos:
+  - DisplayName: Wall
+    Id: Wall
+    Prefab: {fileID: 11400000, guid: ed878af0397c5bd4e89b68b348f3de19, type: 2}
+    UIIcon: {fileID: 0}
+    StackLimit: 1
+    Shape:
+    - {x: 0, y: 0, z: 0}
+    IsBlocker: 1
+  - DisplayName: Wall (Incomplete)
+    Id: Wall_WIP
+    Prefab: {fileID: 11400000, guid: 243a9e0b32f011641939dbcd70c47c2d, type: 2}
+    UIIcon: {fileID: 0}
+    StackLimit: 1
+    Shape:
+    - {x: 0, y: 0, z: 0}
+    IsBlocker: 0
+  CharacterPrefabInfos:
+  - DisplayName: Builder
+    Id: Builder
+    Prefab: {fileID: 5572659331337676979, guid: 0c173ba7f4b33074eaf0200c6dc2affb,
+      type: 3}
+    UIIcon: {fileID: 0}
